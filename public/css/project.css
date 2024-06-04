@@ -27,13 +27,15 @@
   margin: 20px 0;
 }
 
-.project-card p {
+.project-card .p-c-info {
   color: #d4eae9;
   line-height: 1.6;
   max-width: 80vw;
   max-height: 40vh !important;
   overflow: auto;
   padding: 10px;
+  background-color: #082e4e;
+  border-radius: 17px;
 }
 
 .project-card p::-webkit-scrollbar {

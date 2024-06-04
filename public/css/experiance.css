@@ -27,6 +27,11 @@
   color: #d4eae9;
   line-height: 1.6;
 }
+.experience-info {
+  background-color: #082e4e;
+  border-radius: 17px;
+  padding: 10px;
+}
 .experience-info a {
   text-decoration: none;
   color: white;
