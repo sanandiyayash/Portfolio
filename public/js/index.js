@@ -21,6 +21,19 @@ menuClose.addEventListener('click', () => {
 
 })
 
+let currentPg = window.location.pathname;
+const navA = document.querySelectorAll('nav ul li a');
+
+// Use forEach to loop through each <a> element
+navA.forEach(link => {
+
+    if (link.href.includes(currentPg)) {
+        link.classList.add('current-active-link');
+    }
+
+}
+)
+
 
 const scrollRevealOption = {
     distance: "50px",

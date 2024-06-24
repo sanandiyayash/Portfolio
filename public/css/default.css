@@ -68,6 +68,9 @@ nav .menu-icon i,
   position: relative;
   z-index: 100;
 }
+.current-active-link {
+  color: #f0a500 !important;
+}
 
 @media only screen and (max-width: 850px) {
   nav .menu-icon {
